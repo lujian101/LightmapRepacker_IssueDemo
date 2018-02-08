@@ -24,6 +24,7 @@ Demo演示步骤：
 
 	![](https://github.com/lujian101/LightmapRepacker_IssueDemo/blob/master/LightmapRepacker/pictures/3.png?raw=true)
 2. Lightmap烘焙时，设置各个图块之间的间隔
+
 	![](https://github.com/lujian101/LightmapRepacker_IssueDemo/blob/master/LightmapRepacker/pictures/4.png?raw=true)
     经过验证，这个值会最终表现在lightmap中每个图块的右、上两边会预留指定大小的空白
 3. 纹理坐标是[0， 1]之间的浮点数，所以在最终计算覆盖像素区域的时候因取整会引入误差
